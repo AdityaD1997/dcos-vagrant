@@ -1,18 +1,18 @@
 m1:
   ip: 192.168.65.90
-  cpus: 2
+  cpus: 1
   memory: 1024
   type: master
 a1:
   ip: 192.168.65.111
-  cpus: 4
-  memory: 6144
+  cpus: 1
+  memory: 2048
   memory-reserved: 512
   type: agent-private
 p1:
   ip: 192.168.65.60
-  cpus: 2
-  memory: 1536
+  cpus: 1
+  memory: 1024
   memory-reserved: 512
   type: agent-public
   aliases:
@@ -20,6 +20,6 @@ p1:
   - oinker.acme.org
 boot:
   ip: 192.168.65.50
-  cpus: 2
+  cpus: 1
   memory: 1024
   type: boot
